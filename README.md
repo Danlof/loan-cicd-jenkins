@@ -29,3 +29,8 @@ sudo systemctl status jenkins
 `sudo usermod -a -G docker jenkins
 sudo usermod -a -G docker $USER
 `
+### Setup Github repository for tracking changes
+- Create a repo
+- push data to github repo
+- Generate personal access tokens and store in jenkins 
+- setting up webhooks 
