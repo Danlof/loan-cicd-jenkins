@@ -1,3 +1,8 @@
+## Jenkins CICD
+- I will be using jenkins to keep track of the the development process of the loan app.
+- These are mostly the instructions to build:
+    - docker and run it 
+    - track the development using jenkins.
 ### Some commands used to run docker, locally.
 ```
 docker build -t danlof/cicd:latest . #-->  This builds the docker image
