@@ -22,7 +22,10 @@ docker exec -d -w /code modelv1 python main.py # execute the
 `sudo systemctl enable jenkins
 sudo systemctl start jenkins
 sudo systemctl status jenkins
+
 `
+#### Pasword for jenkins 
+- For the password: `sudo cat /var/lib/jenkins/secrets/initialAdminPassword`
 
 - Next install docker (instructions on the official website of linux docker installation)
 - These 2 commands enable permissions on jenkins
