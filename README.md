@@ -20,8 +20,14 @@ docker exec -d -w /code modelv1 python main.py # execute the
 ```
 
 ## using Jenkins 
-- Got t0 the official documentations of jenkins on how to install it together with java.
--
+- Got to the official documentations of jenkins on how to install it together with java.
+
+- This adds jenkins to the docker group  and adds current user to the docker group to be able to excute docker commands without `sudo` respectively
+`sudo usermod -a -G docker jenkins
+sudo usermod -a -G docker $USER
+`
+
+- Make sure to restart the EC2 instance for the changes to take effect.
 
 ### Enabling jenkins 
 `sudo systemctl enable jenkins
