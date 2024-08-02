@@ -44,5 +44,6 @@ docker cp loanv1:/code/src/TestResults.xml .
 docker exec -d -w /code loanv1 python main.py
 ```
  
-
+### EC2 instance 
+- Make sure to use and instance with enough space to avoid issues with the run and build of the docker images and containers. i.e t2 medium is okay
  
